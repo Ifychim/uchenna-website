@@ -4,10 +4,15 @@ CSS is a Style Sheet Language.
 
 /* General Element Selectors "p, li, h1"*/
 html{
-    font-size: 10px;
     font-family: Comfortaa;
 }
 
+body{
+    /*
+    First value of margin or padding property affects the elements top and bottoms side. Second Value affects the left and right side.
+    */
+    margin: 0 auto;
+}
 /* Class Selectors -> "." */
 .name-header{
     font-size: 30px;
