@@ -1,0 +1,30 @@
+/*
+CSS is a Style Sheet Language.
+*/
+
+/* General Element Selectors "p, li, h1"*/
+html{
+    font-size: 10px;
+    font-family: Comfortaa;
+}
+
+/* Class Selectors -> "." */
+.name-header{
+    font-size: 30px;
+    text-align: center;
+}
+.self-description, .self-description-list{
+    font-size: 16px;
+    line-height:  2;
+    letter-spacing: 1px;
+}
+.self-description{
+    color: white;
+}
+.self-description-list{
+    color:thistle;
+}
+/*Pseudo-Class Selector  -> "a:hover" selects <a> but only when the mouse pointer is hovering over a*/
+
+/* ID Selectors -> "#"*/
+
