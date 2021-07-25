@@ -9,7 +9,8 @@ html{
 
 body{
     /*
-    First value of margin or padding property affects the elements top and bottoms side. Second Value affects the left and right side.
+    First value of margin or padding property affects the elements top and bottoms side. 
+    Second Value affects the left and right side.
     */
     margin: 0 auto;
 }
@@ -17,6 +18,7 @@ body{
 .name-header{
     font-size: 30px;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 .self-description, .self-description-list{
     font-size: 16px;
