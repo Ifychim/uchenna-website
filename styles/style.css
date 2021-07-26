@@ -13,25 +13,38 @@ body{
     Second Value affects the left and right side.
     */
     margin: 0 auto;
+    width: 600px;
+    border: 5px solid black;
 }
 /* Class Selectors -> "." */
 .name-header{
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 20px 0;
 }
 .self-description, .self-description-list{
     font-size: 16px;
     line-height:  2;
     letter-spacing: 1px;
+    
 }
 .self-description{
     color: white;
+    padding: 0 10px;
 }
 .self-description-list{
     color:thistle;
 }
+
+.links{
+    padding: 0 10px;
+}
 /*Pseudo-Class Selector  -> "a:hover" selects <a> but only when the mouse pointer is hovering over a*/
 
 /* ID Selectors -> "#"*/
-
+#uchenna-picture{
+    display: block;
+    margin: 0 auto;
+}
